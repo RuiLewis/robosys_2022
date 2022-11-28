@@ -1,5 +1,5 @@
 # robosys_2022
-For learning, robot system 2022
+For learning and homework, robot system 2022
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージは，3条項BSDライセンスの下，ryuichiueda/emcl由来のコード（© 2022 Ryuichi Ueda）を利用しています．
