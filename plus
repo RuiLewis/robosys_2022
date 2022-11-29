@@ -4,6 +4,7 @@
 
 import sys
 import datetime
+from datetime import timedelta
 
 ##def tonum(s):
 ##    try:
@@ -11,9 +12,12 @@ import datetime
 ##    except:
 ##        return float(s)
 
+## date calculation program
+## today ##
 today = datetime.datetime.now()
-
-print(today)
+## the future x days after from today
+futu = today + timedelta(100)
+print(futu)
 
 ##ans = 0.0
 
