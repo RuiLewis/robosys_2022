@@ -1,0 +1,9 @@
+name: test      # Name of this workflow
+on: push        # When this workflow runs
+jobs:           # Job list
+        test:   # Job named test
+                runs-on: ubuntu-latest          # Runing environmwnt
+                steps:                          # Steps
+                - uses: actions/checkout@v3     # https://github.com/actions/checkout version3
+                - name: All test                # Job name
+                  run: bash -xv ./test.bash     # Run the shell script of test
