@@ -3,18 +3,23 @@
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
+import datetime
 
-def tonum(s):
-    try:
-        return int(s)
-    except:
-        return float(s)
+##def tonum(s):
+##    try:
+##        return int(s)
+##    except:
+##        return float(s)
 
-ans = 0.0
+today = datetime.datetime.now()
 
-for line in sys.stdin:
-    line = line.rstrip()
-    ans += tonum(line)
+print(today)
 
-print(ans)
+##ans = 0.0
+
+##for line in sys.stdin:
+##    line = line.rstrip()
+##    ans += tonum(line)
+
+##print(ans)
 
