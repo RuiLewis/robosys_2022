@@ -6,4 +6,4 @@ jobs:           # Job list
                 steps:                          # Steps
                 - uses: actions/checkout@v3     # https://github.com/actions/checkout version3
                 - name: All test                # Job name
-                  run: bash -xv ./test.bash     # Run the shell script of test
+                  run: bash -xv ./test          # Run the shell script of test
