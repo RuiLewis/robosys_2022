@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 # SPDX-FileCopyrightText: 2022 Rui Suzuki
 #SPDX-License -Identifier: BSD-3-Clause
 
@@ -10,35 +10,44 @@ ng(){
 res=0
 
 ### I/O Test ###
-##out=$(seq 5 | ./plus)
-##[ "${out}" = 15.0 ] || ng $LINENO
+## REMINDER
+## This test program NEED TO BE EDITED to the DATE YOU TEST IT in each case
+## 
+## Change the target date on line 20 to the date you test it
+## (ex.30 Nov 2022 -> 2022-11-30
+
+out=$(seq 0 | ./plus)
+[ "${out}" = "2022-11-30" ] || ng $LINENO
 
 ### Strange Input ###
-##out=$(echo A | ./plus)
-##[ "$?" = 1 ] || ng $LINENO
-##[ "${out}" = "" ] || ng $LINENO
+out=$(echo A | ./plus)
+[ "$?" = 1 ] || ng $LINENO
+[ "${out}" = "" ] || ng $LINENO
 
-##out=$(echo | ./plus)
-##[ "$?" = 1 ] || ng $LINENO
-##[ "${out}" = "" ] || ng $LINENO
+out=$(echo | ./plus)
+[ "$?" = 1 ] || ng $LINENO
+[ "${out}" = "" ] || ng $LINENO
 
-##[ "$res" = 0 ] && echo OK
+[ "$res" = 0 ] && echo OK
 
-### Date output test ###
-## Run it on 30 Nov 2022
-## Program then
-#####################################
-## import sys			   ##
-## import datetime		   ##
-## from datetime import timedelta  ##
-## 				   ##
-## today = datetime.datetime.now() ##
-## m = today.month		   ##
-## print(m)			   ##
-#####################################
 
-out=$(./plus)
-[ "$out" = 11 ] || ng $LINENO
+## Date output test ######################################################
+## Tested on 30 Nov 2022 09:21:34					##
+## "Confiremed all python versions are available for datetime function" ##
+##########################################################################
+## import sys			   					##
+## import datetime		   					##
+## from datetime import timedelta  					##
+## 				   					##
+## today = datetime.datetime.now() 					##
+## m = today.month		   					##
+## print(m)			   					##
+##########################################################################
+##				   					##
+## out=$(./plus)			   				##
+## [ "$out" = 11 ] || ng $LINENO	   				##
+##				   					##
+##########################################################################
 
 exit $res
 

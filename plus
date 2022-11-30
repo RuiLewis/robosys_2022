@@ -6,27 +6,21 @@ import sys
 import datetime
 from datetime import timedelta
 
-##def tonum(s):
-##    try:
-##        return int(s)
-##    except:
-##        return float(s)
+def tonum(s):
+    try:
+        return int(s)
+    except:
+        return float(s)
 
-## date calculation program
-## today ##
-today = datetime.datetime.now()
-m = today.month
-print(m)
+x = 0
 
-## the future x days after from today
-##futu = today + timedelta(100)
-##print(futu)
+for line in sys.stdin:
+    line = line.rstrip()
+    x += tonum(line)
 
-##ans = 0.0
+rightnow = datetime.datetime.now()
+today = rightnow.date()
+futu = today + timedelta(x)
 
-##for line in sys.stdin:
-##    line = line.rstrip()
-##    ans += tonum(line)
-
-##print(ans)
+print(futu)
 
