@@ -5,7 +5,7 @@ For learning and homework, robot system 2022
 This program calculate simple summation and calculate what is the date if that amount of days past to aknowledge how time flies fast and terrify of simple summation.
 
 # plus command
-![test](https://github.com/RuiLewis/robosys_2022/.github/workflows/test.yml/badge.svg)
+![test](https://github.com/RuiLewis/robosys_2022/actions/workflows/test.yml/badge.svg)
 
 ## Available softwares
 * Python

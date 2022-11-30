@@ -24,18 +24,18 @@ futu = today + timedelta(x)
 
 print(futu)
 
-y = futu.year
-m = futu.month
-d = futu.day
+##y = futu.year
+##m = futu.month
+##d = futu.day
 
-if ( (y == 2023) & (m == 1) & (d == 27) ):
-    print("It's time for Graduation thesis presentation")
-elif ( (m == 3) & (d == 2) ):
-    print("HAPPY BIRTHDAY")
-elif ( (m == 12) & (d == 25) ):
-    print("MERRY CHRISTMAS")
-elif ( (m == 1) & (d == 1) ):
-    print("HAPPY NEW YEAR")
-else:
-    print("NOTHING SPECIAL, BUT HAVE A NICE DAY")
+##if ( (y == 2023) & (m == 1) & (d == 27) ):
+##    print("It's time for Graduation thesis presentation")
+##elif ( (m == 3) & (d == 2) ):
+##    print("HAPPY BIRTHDAY")
+##elif ( (m == 12) & (d == 25) ):
+##    print("MERRY CHRISTMAS")
+##elif ( (m == 1) & (d == 1) ):
+##    print("HAPPY NEW YEAR")
+##else:
+##    print("NOTHING SPECIAL, BUT HAVE A NICE DAY")
 

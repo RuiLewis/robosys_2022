@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2022 Rui Suzuki
 #SPDX-License -Identifier: BSD-3-Clause
 
@@ -9,15 +9,15 @@ ng(){
 
 res=0
 
-### I/O Test ###
-## REMINDER
-## This test program NEED TO BE EDITED to the DATE YOU TEST IT in each case
-## 
-## Change the target date on line 20 to the date you test it
-## (ex.30 Nov 2022 -> 2022-11-30
+### I/O Test #############################################################
+## REMINDER								##
+##									##
+## THIS TEST PROGRAM NEED TO BE CHANGED TO WHEN YOUR TEST WAS CONDUCTED ##
+##									##
+##########################################################################
 
 out=$(seq 0 | ./plus)
-[ "${out}" = "2022-11-30" ] || ng $LINENO
+[ "${out}" = 2022-11-30 ] || ng $LINENO
 
 ### Strange Input ###
 out=$(echo A | ./plus)
