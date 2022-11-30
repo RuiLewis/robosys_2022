@@ -10,19 +10,35 @@ ng(){
 res=0
 
 ### I/O Test ###
-out=$(seq 5 | ./plus)
-[ "${out}" = 15.0 ] || ng $LINENO
+##out=$(seq 5 | ./plus)
+##[ "${out}" = 15.0 ] || ng $LINENO
 
 ### Strange Input ###
-out=$(echo A | ./plus)
-[ "$?" = 1 ] || ng $LINENO
-[ "${out}" = "" ] || ng $LINENO
+##out=$(echo A | ./plus)
+##[ "$?" = 1 ] || ng $LINENO
+##[ "${out}" = "" ] || ng $LINENO
 
-out=$(echo | ./plus)
-[ "$?" = 1 ] || ng $LINENO
-[ "${out}" = "" ] || ng $LINENO
+##out=$(echo | ./plus)
+##[ "$?" = 1 ] || ng $LINENO
+##[ "${out}" = "" ] || ng $LINENO
 
-[ "$res" = 0 ] && echo OK
+##[ "$res" = 0 ] && echo OK
+
+### Date output test ###
+## Run it on 30 Nov 2022
+## Program then
+#####################################
+## import sys			   ##
+## import datetime		   ##
+## from datetime import timedelta  ##
+## 				   ##
+## today = datetime.datetime.now() ##
+## m = today.month		   ##
+## print(m)			   ##
+#####################################
+
+out=$(./plus)
+[ "$out" = 11 ] || ng $LINENO
 
 exit $res
 
