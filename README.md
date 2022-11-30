@@ -10,14 +10,11 @@ How to use
 
 ### Installation
 * Follow the procedure below
-\n
-$ git clone https://github.com/RuiLewis/robosys_2022.git
-\n
-$ cd robosys_2022
-\n
-$ make
-\n
-$ sudo make install
+
+	* $ git clone https://github.com/RuiLewis/robosys_2022.git
+	* $ cd robosys_2022
+	* $ make
+	* $ sudo make install
 
 * Quick trial
 (This test was conducted in 30 Nov 2022)
