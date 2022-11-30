@@ -17,11 +17,11 @@ How to use
 	* $ sudo make install
 
 * Quick trial
-(This test was conducted in 30 Nov 2022)
+	* (This test was conducted in 30 Nov 2022)
 
-:~$ cd ~/robosys_2022
-:~/robosys_2022$ seq 10 | ./plus
-2023-01-24
+	* :~$ cd ~/robosys_2022
+	* :~/robosys_2022$ seq 10 | ./plus
+	* 2023-01-24
 
 ### Available softwares
 * Python
