@@ -33,6 +33,9 @@ This program calculate simple summation and calculate what is the date if that a
 ### shebang
 * #!/usr/bin/python3
 
+# License
+BSD-3-Clause is applied.
+
 # Rights and acknoledgement
 * plus command and the test used in this software was first written and circulated by Ryuichi Ueda, associate professor of Chiba Institute of Technology. Those source codes were referenced during the class "Robot System" and placed in class text files and youtube videos below.
 (https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html)
