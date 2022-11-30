@@ -8,8 +8,9 @@ This program calculate simple summation and calculate what is the date if that a
 ![test](https://github.com/RuiLewis/robosys_2022/actions/workflows/test.yml/badge.svg)
 How to use
 
-* Installation
-Follow the procedure below
+### Installation
+*Follow the procedure below
+
 $ git clone https://github.com/RuiLewis/robosys_2022.git
 $ cd robosys_2022
 $ make
