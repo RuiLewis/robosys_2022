@@ -16,8 +16,8 @@ This program calculate simple summation and calculate what is the date if that a
 	* $ make
 	* $ sudo make install
 
-* Quick trial
-	* (This test was conducted in 30 Nov 2022)
+### Quick trial
+* This test was conducted in 30 Nov 2022
 
 	* :~$ cd ~/robosys_2022
 	* :~/robosys_2022$ seq 10 | ./plus

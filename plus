@@ -37,5 +37,5 @@ print(futu)
 ##elif ( (m == 1) & (d == 1) ):
 ##    print("HAPPY NEW YEAR")
 ##else:
-##    print("NOTHING SPECIAL, BUT HAVE A NICE DAY")
+##    print("NOTHING SPECIAL, BUT HAVE A NICE DAY"
 
