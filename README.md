@@ -6,7 +6,7 @@ This program calculate simple summation and calculate what is the date if that a
 
 # plus command
 ![test](https://github.com/RuiLewis/robosys_2022/actions/workflows/test.yml/badge.svg)
-## How to use
+## How to use?
 
 ### Installation
 * Follow the procedure below
@@ -29,6 +29,9 @@ This program calculate simple summation and calculate what is the date if that a
 
 ### Test environment
 * ubuntu18.04 LTS
+
+### shebang
+* #!/usr/bin/python3
 
 # Rights and acknoledgement
 * plus command and the test used in this software was first written and circulated by Ryuichi Ueda, associate professor of Chiba Institute of Technology. Those source codes were referenced during the class "Robot System" and placed in class text files and youtube videos below.
