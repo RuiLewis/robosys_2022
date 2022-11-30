@@ -9,11 +9,14 @@ This program calculate simple summation and calculate what is the date if that a
 How to use
 
 ### Installation
-*Follow the procedure below
-
+* Follow the procedure below
+\n
 $ git clone https://github.com/RuiLewis/robosys_2022.git
+\n
 $ cd robosys_2022
+\n
 $ make
+\n
 $ sudo make install
 
 * Quick trial
