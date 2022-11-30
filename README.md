@@ -10,7 +10,10 @@ How to use
 
 * Installation
 Follow the procedure below
-(Robosys2022 Installation procedure.txt)
+$ git clone https://github.com/RuiLewis/robosys_2022.git
+$ cd robosys_2022
+$ make
+$ sudo make install
 
 * Quick trial
 (This test was conducted in 30 Nov 2022)
