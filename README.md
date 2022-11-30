@@ -3,10 +3,10 @@ For learning and homework, Robot System 2022
 
 ## What this program do?
 This program calculate simple summation and calculate what is the date if that amount of days past by today to aknowledge how time flies fast and terrify of simple summation.
-]
-## plus command
+
+# plus command
 ![test](https://github.com/RuiLewis/robosys_2022/actions/workflows/test.yml/badge.svg)
-How to use
+## How to use
 
 ### Installation
 * Follow the procedure below
