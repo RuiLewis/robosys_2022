@@ -17,7 +17,7 @@
 	* $ sudo make install
 
 ### クイックトライアル
-* This test was conducted in 30 Nov 2022
+* 本テストは2022年11月30日に実施された．
 
 	* :~$ cd ~/robosys_2022
 	* :~/robosys_2022$ seq 10 | ./plus
