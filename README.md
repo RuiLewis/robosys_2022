@@ -1,43 +1,42 @@
 # robosys_2022
-For learning and homework, Robot System 2022
+ロボットシステム学2022　第一回提出課題
 
-## What this program do?
-This program calculate simple summation and calculate what is the date if that amount of days past by today to aknowledge how time flies fast and terrify of simple summation.
+## 本プログラムの目的・概要
+本プログラムは任意の数字を入力すると，その足し合わせ計算を実施し，本日から計算結果分の日付が経過した日付を算出し出力するプログラムである．
 
 # plus command
 ![test](https://github.com/RuiLewis/robosys_2022/actions/workflows/test.yml/badge.svg)
-## How to use?
+## 使用にあたり
 
-### Installation
-* Follow the procedure below
+### インストール
+* 下記の手順に従いインストールする．
 
 	* $ git clone https://github.com/RuiLewis/robosys_2022.git
 	* $ cd robosys_2022
 	* $ make
 	* $ sudo make install
 
-### Quick trial
+### クイックトライアル
 * This test was conducted in 30 Nov 2022
 
 	* :~$ cd ~/robosys_2022
 	* :~/robosys_2022$ seq 10 | ./plus
 	* 2023-01-24
 
-### Available softwares
-* Python
-	* Test performed with version 3.7 ~ 3.10
+### 推奨環境
+* Python 3.7 ~ 3.10
 
-### Test environment
+### テスト実行環境
 * ubuntu18.04 LTS
 
 ### shebang
 * #!/usr/bin/python3
 
-# License
-BSD-3-Clause is applied. More details in LICENSE
+# ライセンス
+BSD三条項ライセンス適用．詳細はLICENSE参照．
 
-# Rights and acknoledgement
-* plus command and the test used in this software was first written and circulated by Ryuichi Ueda, associate professor of Chiba Institute of Technology. Those source codes were referenced during the class "Robot System" and placed in class text files and youtube videos below.
+# 権利関係・謝辞
+* 本プログラム内にて使用されるplusコマンドとそのテストは，千葉工業大学準教授，上田隆一先生がはじめて著作，使用された.そのソースコードは以下の講義用動画において用いられたものを参考とした．
 (https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html)
 (https://ryuichiueda.github.io/my_slides/robosys_2022/lesson5.html)
 (https://ryuichiueda.github.io/my_slides/robosys_2022/lesson6.html)
@@ -45,10 +44,10 @@ BSD-3-Clause is applied. More details in LICENSE
 (https://www.youtube.com/watch?v=ZP0vm03QJSw&list=PLbUh9y6MXvjeM-lT7UoHix3zxxa6M5Jui&index=6)
 (https://www.youtube.com/watch?v=9HPLMhKvecY&list=PLbUh9y6MXvjeM-lT7UoHix3zxxa6M5Jui&index=7)
 (https://www.youtube.com/watch?v=9HPLMhKvecY&list=PLbUh9y6MXvjeM-lT7UoHix3zxxa6M5Jui&index=8)
-* Down below are web sites and program which I referenced for datetime function used in this program.
+* datetime関数を用いる上で，以下のウェブサイトとプログラムを参考とした．
 (https://note.nkmk.me/python-datetime-now-today)
 (https://www.choge-blog.com/programming/pythondatetimegetyearmonthday)
-* This README.md is written Markdown. Referenced repository mentioned below.
+* このREADME.mdは以下のリポジトリを参考にマークダウン方式で記述された． 
 (https://github.com/ryuichiueda/GlueLang) 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージは，3条項BSDライセンスの下，ryuichiueda/emcl由来のコード（© 2022 Ryuichi Ueda）を利用しています．
